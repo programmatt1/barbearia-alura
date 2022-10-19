@@ -1,20 +1,20 @@
 header {
      background: #BBBBBB;
      padding: 20px 0;
- 
- } 
- 
+
+ }
+
  nav {
      position: absolute;
      top: 110px;
      right: 0;
  }
- 
+
  nav li {
      display: inline;
      margin: 0 0 0 15px;
  }
- 
+
  nav a {
      text-transform: uppercase;
      color: #000000;
@@ -22,21 +22,21 @@ header {
      font-size: 22px;
      text-deccoration: none;
  }
- 
- 
+
+
  nav a:hover {
      color: #C78C19;
      text-decoration: underline;
 
  }
 
- 
+
  .produtos {
      width: 940px;
      margin: 0 auto;
      padding: 50px 0;
  }
- 
+
  .produtos li {
      display: inline-block;
      text-align: center;
@@ -49,18 +49,18 @@ header {
      border: 2px solid #000000;
      border-radius: 10px;
  }
- 
+
  .produtos li:hover {
      border-color: #C78C19;
      font-size: 40px;
- 
+
  }
- 
+
  .produtos li:active {
      border-color: #088C19;
 
  }
- 
+
  .produtos h2 {
      font-size: 30px;
      font-weight: bold;
@@ -69,12 +69,12 @@ header {
  .produtos li:hover h2 {
      font-size: 34px;
  }
- 
+
  .produto-descricao {
      font-size: 18px;
- 
+
  }
- 
+
  .produto-preço {
      font-sike: 22px;
      font-weight: bold;
@@ -86,14 +86,14 @@ header {
      background: url("https://live.staticflickr.com/65535/52124393431_aa20678b42_w.jpg");
      padding: 40px 0;
  }
- 
+
  .copyright {
     color: #FFFFFF;
     font-size: 13px;
    m argin: 20px 0 0;
 
  }
- 
+
  main {
     width: 940px;
     margin: 0 auto;
@@ -142,3 +142,20 @@ header {
     transform: scale(1.2);
 
 }
+
+table {
+    margin: 20px 0 40px;
+  }
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000 ;
+    padding: 8px 15px;
+    /* css da pagina  inicial. * /
+.baner {
+   width:100%
